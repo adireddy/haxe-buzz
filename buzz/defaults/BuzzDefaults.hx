@@ -15,14 +15,14 @@ extern class BuzzDefaults {
     public var placeholder:String;
 
     // default: 5000
-    public static var duration:Float;
+    public var duration:Float;
 
     //0 - 100 (default: 80)
-    public static var volume:Int;
+    public var volume:Int;
 
     // Audio formats of your files (["ogg", "mp3", "aac", "wav"])
-    public static var formats:String;
+    public var formats:String;
 
     // Route through Web Audio API to improve performance if available. (default: false)
-    public static var webAudioApi:Bool;
+    public var webAudioApi:Bool;
 }
