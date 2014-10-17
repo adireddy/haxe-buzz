@@ -26,7 +26,7 @@ class Main {
 	private var _sound:BuzzSound;
 
 	public function new() {
-	    // autoplay is false by default
+	    //autoplay is false by default
 	    //this is just to show how you can set default properties like autoplay, loop, preload, etc
   		Buzz.defaults.autoplay = false;
   		_sound = new BuzzSound("sounds/test", { formats: [ "ogg", "mp3" ], preload: true });
