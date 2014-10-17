@@ -1,9 +1,11 @@
 package buzz;
 
+import buzz.defaults.BuzzDefaults;
+
 @:native("buzz")
 extern class Buzz {
 
-    // all sounds
+    // A convenient predefined group containing all the buzz sound instances.
     static function all():BuzzSound;
 
     static function isSupported():Bool;
@@ -13,7 +15,7 @@ extern class Buzz {
     static function isAACSupported():Bool;
 
     //All the default settings can be set globaly.
-    static var defaults:Defaults;
+    static var defaults:BuzzDefaults;
 
     //Array of all the sound instances created.
     static var sounds:Array<BuzzSound>;

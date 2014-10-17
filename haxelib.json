@@ -1,0 +1,13 @@
+{
+  "name": "buzz",
+  "license": "MIT",
+  "tags": ["js","haxe","buzz","extern","web","audio","sound","webAudioApi"],
+  "description": "Extern classes of Buzz for Haxe - A Javascript HTML5 Audio library.",
+  "contributors": ["adi"],
+  "releasenote": "initial release",
+  "version": "1.0.0",
+  "url": "https://github.com/adireddy/haxe-buzz",
+  "dependencies": {
+
+  }
+}
