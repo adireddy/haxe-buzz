@@ -29,6 +29,7 @@ class Main {
 	    //autoplay is false by default
 	    //this is just to show how you can set default properties like autoplay, loop, preload, etc
   		Buzz.defaults.autoplay = false;
+  		Buzz.defaults.webAudioApi = true;
   		_sound = new BuzzSound("sounds/test", { formats: [ "ogg", "mp3" ], preload: true });
   		_sound.bind(BuzzEvent.CAN_PLAYTHROUGH, _playSound);
 	}
