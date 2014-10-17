@@ -33,8 +33,8 @@ class Main {
 	}
 	
 	private function _playSound():Void {
-      _sound.play();
-  }
+      		_sound.play();
+  	}
 
 	private static function main() {
 		new Main();
