@@ -44,6 +44,6 @@ class Main {
 }
 ```
 
-This content is released under the (http://opensource.org/licenses/MIT) MIT License.
+This content is released under the [MIT](http://opensource.org/licenses/MIT) License.
 
 Buzz is written by [Jay Salvat](http://buzz.jaysalvat.com/) and licensed under the MIT License.
