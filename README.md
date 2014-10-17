@@ -9,6 +9,7 @@ Extern classes of Buzz for Haxe - A Javascript HTML5 Audio library.
 
 ```haxe
 haxelib install buzz
+```
 
 ### Usage ###
 
