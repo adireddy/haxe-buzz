@@ -11,6 +11,12 @@ Externs of buzz.js for Haxe - A Javascript HTML5 Audio library.
 haxelib install buzz
 ```
 
+### Demo ###
+
+* [Haxe Buzz Demo](http://www.arm.rocks/haxe-buzz-demo/)
+
+Look at the demo folder for the source code of above example.
+
 ### Usage ###
 
 ```haxe
