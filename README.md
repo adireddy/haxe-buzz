@@ -1,4 +1,4 @@
-haxe-buzz
+haxe-buzz ![Build Status](https://travis-ci.org/adireddy/haxe-buzz.svg?branch=master)
 =========
 
 ![haxe buzz logo](https://raw.githubusercontent.com/adireddy/haxe-buzz/master/logo.png)
