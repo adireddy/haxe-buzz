@@ -1,0 +1,11 @@
+-cp demo
+-cp src
+-main demo.Main
+-js demo/_output/buzz-demo.js
+
+-lib pixijs
+-lib msignal
+
+-D source-map-content
+
+-dce full
