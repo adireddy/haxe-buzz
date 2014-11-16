@@ -73,8 +73,8 @@ demo.Main = function() {
 	this._btnContainer = new PIXI.DisplayObjectContainer();
 	this.container.addChild(this._btnContainer);
 	this._bgSound = new buzz.sound("assets/loop",{ formats : ["mp3"], preload : true, loop : true});
-	this._sound1 = new buzz.sound("assets/sound1",{ formats : ["wav"], preload : true, loop : true});
-	this._sound2 = new buzz.sound("assets/sound2",{ formats : ["wav"], preload : true, loop : true});
+	this._sound1 = new buzz.sound("assets/sound1",{ formats : ["wav"], preload : true});
+	this._sound2 = new buzz.sound("assets/sound2",{ formats : ["wav"], preload : true});
 	this._addButton("LOOP SOUND",0,0,100,30,$bind(this,this._playBGSound));
 	this._addButton("SOUND 1",100,0,100,30,$bind(this,this._playSound1));
 	this._addButton("SOUND 2",200,0,100,30,$bind(this,this._playSound2));
