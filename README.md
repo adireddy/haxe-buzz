@@ -13,7 +13,7 @@ haxelib install buzz
 
 ### Demo ###
 
-* [Haxe Buzz Demo](http://www.arm.rocks/haxe-buzz-demo/)
+* [Haxe Buzz Demo](http://www.arm.rocks/haxe-buzz-demo)
 
 Look at the demo folder for the source code of above example.
 
