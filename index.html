@@ -56,10 +56,14 @@
 
     <span class="pl-s">public</span> <span class="pl-k">function</span> <span class="pl-enf">new</span>() {
         <span class="pl-c"><span class="pl-pdc">//</span>autoplay is false by default</span>
-        <span class="pl-c"><span class="pl-pdc">//</span>this is just to show how you can set default properties like autoplay, loop, preload, etc</span>
+        <span class="pl-c"><span class="pl-pdc">//</span>this is just to show how you can set default properties</span>
+        <span class="pl-c"><span class="pl-pdc">//</span>like autoplay, loop, preload, etc</span>
         <span class="pl-entc">Buzz</span>.defaults.autoplay <span class="pl-ko">=</span> <span class="pl-c1">false</span>;
         <span class="pl-entc">Buzz</span>.defaults.webAudioApi <span class="pl-ko">=</span> <span class="pl-c1">true</span>;
-        _sound <span class="pl-ko">=</span> <span class="pl-k">new</span> <span class="pl-s">BuzzSound</span>(<span class="pl-s1"><span class="pl-pds">"</span>sounds/test<span class="pl-pds">"</span></span>, { formats: [ <span class="pl-s1"><span class="pl-pds">"</span>ogg<span class="pl-pds">"</span></span>, <span class="pl-s1"><span class="pl-pds">"</span>mp3<span class="pl-pds">"</span></span> ], preload: <span class="pl-c1">true</span> });
+        _sound <span class="pl-ko">=</span> <span class="pl-k">new</span> <span class="pl-s">BuzzSound</span>(<span class="pl-s1"><span class="pl-pds">"</span>sounds/test<span class="pl-pds">"</span></span>, { 
+            formats: [ <span class="pl-s1"><span class="pl-pds">"</span>ogg<span class="pl-pds">"</span></span>, <span class="pl-s1"><span class="pl-pds">"</span>mp3<span class="pl-pds">"</span></span> ],
+            preload: <span class="pl-c1">true</span> 
+        });
         _sound.bind(<span class="pl-entc">BuzzEvent</span>.<span class="pl-entc">CAN_PLAYTHROUGH</span>, _playSound);
     }
 
