@@ -1,4 +1,4 @@
-package demo;
+package samples;
 
 import pixi.display.DisplayObjectContainer;
 import pixi.Button;
