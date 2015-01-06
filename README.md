@@ -3,7 +3,7 @@ haxe-buzz ![Build Status](https://travis-ci.org/adireddy/haxe-buzz.svg?branch=ma
 
 ![haxe buzz logo](https://raw.githubusercontent.com/adireddy/haxe-buzz/master/logo.png)
 
-Externs of buzz.js for Haxe - A Javascript HTML5 Audio library.
+Externs of Buzz for Haxe - A Javascript HTML5 Audio library.
 
 ### Installation ###
 
