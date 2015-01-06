@@ -13,7 +13,7 @@ haxelib install buzz
 
 ### Demo ###
 
-* [Haxe Buzz Demo](http://adireddy.github.io/demos/haxe-howler/)
+* [Haxe Buzz Demo](http://adireddy.github.io/demos/haxe-buzz/)
 
 Look at the `samples` folder for the source code of above example.
 
