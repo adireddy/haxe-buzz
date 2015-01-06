@@ -13,9 +13,9 @@ haxelib install buzz
 
 ### Demo ###
 
-* [Haxe Buzz Demo](http://www.arm.rocks/haxe-buzz-demo)
+* [Haxe Buzz Demo](http://adireddy.github.io/demos/haxe-howler/)
 
-Look at the demo folder for the source code of above example.
+Look at the `samples` folder for the source code of above example.
 
 ### Usage ###
 
@@ -53,6 +53,11 @@ class Main {
 	}
 }
 ```
+
+### Licensing Information ###
+
+<a rel="license" href="http://opensource.org/licenses/MIT">
+<img alt="MIT license" height="40" src="http://upload.wikimedia.org/wikipedia/commons/c/c3/License_icon-mit.svg" /></a>
 
 This content is released under the [MIT](http://opensource.org/licenses/MIT) License.
 
