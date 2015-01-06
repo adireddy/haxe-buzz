@@ -2,7 +2,7 @@ package pixi;
 
 import pixi.text.Text;
 import pixi.primitives.Graphics;
-import pixi.core.Rectangle;
+import pixi.geom.Rectangle;
 import msignal.Signal.Signal1;
 import pixi.display.DisplayObjectContainer;
 
