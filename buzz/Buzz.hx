@@ -1,7 +1,5 @@
 package buzz;
 
-import buzz.defaults.BuzzDefaults;
-
 @:native("buzz")
 extern class Buzz {
 
@@ -15,7 +13,7 @@ extern class Buzz {
     static function isAACSupported():Bool;
 
     //All the default settings can be set globaly.
-    static var defaults:BuzzDefaults;
+    static var defaults:SoundOptions;
 
     //Array of all the sound instances created.
     static var sounds:Array<BuzzSound>;
