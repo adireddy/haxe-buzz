@@ -1,4 +1,4 @@
-haxe-buzz ![Build Status](https://travis-ci.org/adireddy/haxe-buzz.svg?branch=master) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![Haxelib Version](https://img.shields.io/github/tag/buzz/haxe-buzz.svg?style=flat&label=haxelib)](http://lib.haxe.org/p/buzz) ![Build Status](https://travis-ci.org/adireddy/haxe-buzz.svg?branch=master) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 =========
 
 ![haxe buzz logo](https://raw.githubusercontent.com/adireddy/haxe-buzz/master/logo.png)
