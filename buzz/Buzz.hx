@@ -13,7 +13,7 @@ extern class Buzz {
     static function isAACSupported():Bool;
 
     //All the default settings can be set globaly.
-    static var defaults:SoundOptions;
+    static var defaults:Defaults;
 
     //Array of all the sound instances created.
     static var sounds:Array<BuzzSound>;

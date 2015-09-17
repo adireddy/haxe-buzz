@@ -1,10 +1,11 @@
 package buzz;
 
+import js.html.Document;
 @:native("buzz.sound")
 extern class BuzzSound {
 
-	@:overload(function (src:Array<String>, ?options:Dynamic):Void {})
-	function new(src:String, ?options:Dynamic);
+	@:overload(function (src:Array<String>, ?options:SoundOptions):Void {})
+	function new(src:String, ?options:SoundOptions);
 
 	//Load the sound.
 	function load():Void;
@@ -156,4 +157,16 @@ extern class BuzzSound {
      */
 	function getNetworkStateCode():Int;
 	function getNetworkStateMessage():String;
+}
+
+typedef SoundOptions = {
+	@:optional var autoplay:Bool;
+	@:optional var duration:Float;
+	@:optional var formats:Array<String>;
+	@:optional var loop:Bool;
+	@:optional var placeholder:String;
+	@:optional var preload:Dynamic;
+	@:optional var volume:Float;
+	@:optional var webAudioApi:Bool;
+	@:optional var document:Document;
 }

@@ -5,6 +5,7 @@ import pixi.core.display.Container;
 import pixi.plugins.app.Application;
 import pixi.Button;
 import buzz.BuzzSound;
+import buzz.Buzz;
 
 class Main extends Application {
 
@@ -23,9 +24,9 @@ class Main extends Application {
 		_btnContainer = new Container();
 		stage.addChild(_btnContainer);
 
-		_bgSound = new BuzzSound("assets/loop", { formats: [ "mp3" ], preload: true, loop:true });
-		_sound1 = new BuzzSound("assets/sound1", { formats: [ "wav" ], preload: true });
-		_sound2 = new BuzzSound("assets/sound2", { formats: [ "wav" ], preload: true });
+		_bgSound = new BuzzSound("assets/loop", { formats: ["mp3"], preload: true, loop:true });
+		_sound1 = new BuzzSound("assets/sound1", { formats: ["wav"], preload: true });
+		_sound2 = new BuzzSound("assets/sound2", { formats: ["wav"], preload: true });
 
 		_bgSound.play();
 
