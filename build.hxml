@@ -1,9 +1,15 @@
+-cmd haxelib newrepo
+-cmd haxelib install pixijs 3.0.19 || true
+-cmd haxelib install msignal || true
+
+--next
+
 -cp samples
 -cp src
 -main samples.Main
 -js samples/_output/buzz-demo.js
 
--lib pixijs:2.3.0
+-lib pixijs:3.0.19
 -lib msignal
 
 -D source-map-content

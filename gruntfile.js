@@ -1,7 +1,3 @@
-/**
- * Created by Adi Mora on 10/10/2014.
- */
-
 module.exports = function(grunt) {
 
     grunt.initConfig({
@@ -18,12 +14,12 @@ module.exports = function(grunt) {
         },
 
         exec: {
-            copy: "cp -R samples/_output/** ../adireddy.github.io/demos/haxe-howler/"
+            copy: "cp -R samples/_output/** ../adireddy.github.io/demos/haxe-buzz/"
         }
     });
 
     grunt.loadNpmTasks("grunt-haxe");
     grunt.loadNpmTasks("grunt-zip");
     grunt.loadNpmTasks("grunt-exec");
-    grunt.registerTask("default", ["haxe", "zip", "exec"]);
+    grunt.registerTask("default", ["haxe", "exec"]);
 };
