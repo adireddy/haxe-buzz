@@ -1,6 +1,6 @@
 {
 	"name": "buzz",
-	"version": "1.1.10",
+	"version": "1.1.11",
 	"description": "Extern classes of Buzz for Haxe - A Javascript HTML5 Audio library.",
 	"repository": {
 		"type": "git",

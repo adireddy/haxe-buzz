@@ -17,7 +17,7 @@
 		"adireddy"
 	],
 	"releasenote": "updated to buzz 1.1.10",
-	"version": "1.1.10",
+	"version": "1.1.11",
 	"url": "https://github.com/adireddy/haxe-buzz",
 	"dependencies": {
 

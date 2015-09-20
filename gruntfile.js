@@ -10,7 +10,7 @@ module.exports = function (grunt) {
         },
 
         zip: {
-            "buzz.zip": ["./buzz/**", "haxelib.json"],
+            "buzz.zip": ["./buzz/**", "haxelib.json", "README.md"],
         },
 
         exec: {
