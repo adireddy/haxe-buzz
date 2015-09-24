@@ -29,7 +29,7 @@ import buzz.events.BuzzEvent;
 
 class Main {
 
-	private var _sound:BuzzSound;
+	var _sound:BuzzSound;
 
 	public function new() {
 	    //autoplay is false by default
@@ -44,11 +44,11 @@ class Main {
   		_sound.bind(BuzzEvent.CAN_PLAYTHROUGH, _playSound);
 	}
 	
-	private function _playSound():Void {
-      	_sound.play();
+	function _playSound():Void {
+		_sound.play();
   	}
 
-	private static function main() {
+	static function main() {
 		new Main();
 	}
 }
